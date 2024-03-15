@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background: #fff;
 }
 
@@ -15,13 +15,13 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .nav-logo-word {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-link {
@@ -32,12 +32,9 @@ a {
   color: #2e2f42;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
-}
-
-.link-studio:active {
-  text-decoration: underline;
 }
 
 .contacts-link {
@@ -47,7 +44,8 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 .section-one {
@@ -56,23 +54,23 @@ a {
 .section-one-name {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-.buttom-text {
+
+.button-box {
+  background: #4d5ae5;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
-button {
-  background: #4d5ae5;
-  cursor: pointer;
-}
-button:hover {
+button:hover,
+button:focus {
   background: #404bbf;
 }
 .section-two-name-list {
@@ -87,6 +85,18 @@ button:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.section-three-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.section-three-list {
+  background-color: #ffffff;
 }
 .section-three-name-list {
   font-weight: 500;
@@ -109,10 +119,11 @@ button:hover {
 .section-four-name {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .section-four-name-list {
   font-weight: 500;
@@ -127,20 +138,20 @@ button:hover {
   letter-spacing: 0.02em;
   color: #434455;
 }
-footer {
+.footer-box {
   background: #2e2f42;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 .footer-logo-word {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
   font-size: 16px;
