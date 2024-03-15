@@ -36,6 +36,9 @@ a {
 .nav-link:focus {
   color: #404bbf;
 }
+.address-box {
+  font-style: normal;
+}
 
 .contacts-link {
   font-weight: 400;
